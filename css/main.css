@@ -1,0 +1,185 @@
+/* orange= #FB9F00 */
+
+
+.container {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 30px;
+}
+
+body {
+	padding-bottom: 260px;
+}
+
+/*************************
+		HEADER
+*************************/
+
+.header {
+	height: 80px;
+}
+
+
+header h1 {
+	font-family: 'Raleway';
+	float: left;
+	margin: 0;
+}
+
+header ul {
+	float: right;
+}
+
+header li {
+	float: left;
+	padding-left: 20px;
+}
+
+header h1,
+header a {
+	line-height: 80px;
+}
+
+header a {
+	text-decoration: none;
+	color: gray;
+	font-family: 'Source Sans Pro';
+	font-size: 17px;
+}
+
+header a:hover, 
+header .active {
+	color: #FB9F00;
+}
+
+
+
+/*************************
+		BANNER
+*************************/
+
+#banner {
+	height: 450px;
+	width: 100%;
+	background: linear-gradient(
+				rgba(0, 0, 0, 0.75),
+				rgba(0, 0, 0, 0.75)
+				),
+				url('../img/skyline.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	text-align: center;
+}
+
+#banner h1 {
+	margin: 0;
+	padding: 200px 0 20px;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
+	letter-spacing: 2px;
+	font-family: 'Roboto';
+	font-weight: 100;
+}
+
+#banner button {
+	background-color: transparent;
+	padding: 7px;
+	border: 2px solid white;
+	color: #fff;
+	letter-spacing: 1px;
+	font-family: 'Roboto';
+	font-size: 14px;
+}
+
+
+
+
+
+/*************************
+		MAIN
+*************************/
+
+.main {
+	margin-bottom: 100px;
+}
+
+.main div {
+	display: inline-block;
+	width: 277px;
+	padding: 60px 5px 0;
+}
+
+.main h3 {
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+.main p {
+	font-family: 'Roboto';
+	font-size: 14px;
+	color: gray;
+	line-height: 20px;
+}
+
+.main i {
+	color: #FB9F00;
+	padding-right: 10px;
+	font-size: 30px;
+}
+
+
+
+
+/*************************
+		FOOTER
+*************************/
+
+footer {
+	background-color: #333;
+	width: 100%;
+	height: 500px;
+	position: absolute;
+	font-family: 'Source Sans Pro';
+}
+
+.footer-column {
+ 	float: left;
+ 	margin: 0 3%;
+ 	width: 27%;
+ 	padding-top: 40px;
+}
+
+footer h3 {
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+footer p,
+footer ul {
+	border-top: 1px solid #4c4c4c;
+	padding: 20px 0;
+}
+
+footer p,
+footer li {
+	color: #999;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer i {
+	color: #FB9F00;
+	padding-right: 10px;
+	font-size: 30px;
+}
+
+.very-bottom {
+	clear: both;
+	text-align: center;
+	font-size: 14px;
+}
